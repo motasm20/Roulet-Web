@@ -8,7 +8,7 @@ html {
 }
 
 h1 {
-    color: white;
+    color: purple;
 }
 
 #numberContainer { /* dat is de container van de alle roulet nummers */
@@ -30,8 +30,9 @@ h1 {
 .red {
     border: 1px solid white;
     background-color: black;
-    text-align: center;
     color: green;
+    text-align: center;
+   
 
 }
 
@@ -39,7 +40,7 @@ h1 {
     border: 1px solid white;
     background-color: red;
     text-align: center;
-    color: white;
+    
 
 
 }
