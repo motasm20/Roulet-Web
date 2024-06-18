@@ -1,0 +1,54 @@
+html {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("/images/roulette_wallpaper.jpg");
+}
+
+h1 {
+    color: white;
+}
+
+#numberContainer { /* dat is de container van de alle roulet nummers */
+    display: grid;
+    margin: auto;
+    width: 80%;
+
+}
+
+.number {   /*dat is iedere roulet bloknummer*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+    width: 200px;
+    height: 200px;
+}
+
+.red {
+    border: 1px solid white;
+    background-color: red;
+    text-align: center;
+
+}
+
+.black {
+    border: 1px solid white;
+    background-color: black;
+    text-align: center;
+    color: white;
+
+
+}
+
+.green {
+    border: 1px solid white;
+    background-color: green;
+    text-align: center;
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
